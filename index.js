@@ -1,4 +1,4 @@
-//GoUnblock+ Cors proxy alternitive seeing the real domain is goguardian flagged. you guys aint ready lol...\\
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 import express from "express";
 import fetch from "node-fetch";
 const app = express();
